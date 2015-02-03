@@ -31,6 +31,7 @@
 		0AD56D801A80CF3800DA68CB /* emp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D711A80CF3800DA68CB /* emp.png */; };
 		0AD56D811A80CF3800DA68CB /* iphoneBGset.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D721A80CF3800DA68CB /* iphoneBGset.png */; };
 		0ADE346D1A80E1B600E01285 /* krestik.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADE346C1A80E1B600E01285 /* krestik.png */; };
+		0ADE34731A80E57C00E01285 /* TextChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE34721A80E57C00E01285 /* TextChat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		0AD56D711A80CF3800DA68CB /* emp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emp.png; sourceTree = "<group>"; };
 		0AD56D721A80CF3800DA68CB /* iphoneBGset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBGset.png; sourceTree = "<group>"; };
 		0ADE346C1A80E1B600E01285 /* krestik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = krestik.png; sourceTree = "<group>"; };
+		0ADE34711A80E57C00E01285 /* TextChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextChat.h; sourceTree = "<group>"; };
+		0ADE34721A80E57C00E01285 /* TextChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextChat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				0AD56D3E1A80C79600DA68CB /* AppDelegate.h */,
+				0ADE34711A80E57C00E01285 /* TextChat.h */,
+				0ADE34721A80E57C00E01285 /* TextChat.m */,
 				0AD56D3F1A80C79600DA68CB /* AppDelegate.m */,
 				0AD56D441A80C79600DA68CB /* ViewController.h */,
 				0AD56D451A80C79600DA68CB /* ViewController.m */,
@@ -295,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD56D431A80C79600DA68CB /* CDice.xcdatamodeld in Sources */,
+				0ADE34731A80E57C00E01285 /* TextChat.m in Sources */,
 				0AD56D401A80C79600DA68CB /* AppDelegate.m in Sources */,
 				0AD56D461A80C79600DA68CB /* ViewController.m in Sources */,
 				0AD56D3D1A80C79600DA68CB /* main.m in Sources */,

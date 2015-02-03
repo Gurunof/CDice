@@ -44,5 +44,7 @@
 
 - (IBAction)btnSend:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *labelText;
+
 @end
 

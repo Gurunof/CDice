@@ -80,10 +80,10 @@
                                             <action selector="butNum16:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d6C-rP-cOZ"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVW-lb-71O">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVW-lb-71O">
                                         <rect key="frame" x="24" y="349" width="125" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oqm-Zz-rRP">
@@ -190,6 +190,7 @@
                         <outlet property="disconnect" destination="8PM-nU-pPh" id="ziL-V3-hOM"/>
                         <outlet property="iphoneKubikifromiPad1" destination="UEw-IN-5Bu" id="pse-cG-yYe"/>
                         <outlet property="iphoneKubikifromiPad2" destination="QMi-iQ-KP6" id="aH0-di-qdB"/>
+                        <outlet property="labelText" destination="yVW-lb-71O" id="YZE-D5-jq2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
