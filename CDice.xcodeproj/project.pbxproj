@@ -15,6 +15,22 @@
 		0AD56D4B1A80C79600DA68CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D4A1A80C79600DA68CB /* Images.xcassets */; };
 		0AD56D4E1A80C79600DA68CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D4C1A80C79600DA68CB /* LaunchScreen.xib */; };
 		0AD56D5A1A80C79600DA68CB /* CDiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD56D591A80C79600DA68CB /* CDiceTests.m */; };
+		0AD56D731A80CF3800DA68CB /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D641A80CF3800DA68CB /* 11.png */; };
+		0AD56D741A80CF3800DA68CB /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D651A80CF3800DA68CB /* 12.png */; };
+		0AD56D751A80CF3800DA68CB /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D661A80CF3800DA68CB /* 13.png */; };
+		0AD56D761A80CF3800DA68CB /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D671A80CF3800DA68CB /* 14.png */; };
+		0AD56D771A80CF3800DA68CB /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D681A80CF3800DA68CB /* 15.png */; };
+		0AD56D781A80CF3800DA68CB /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D691A80CF3800DA68CB /* 16.png */; };
+		0AD56D791A80CF3800DA68CB /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D6A1A80CF3800DA68CB /* 21.png */; };
+		0AD56D7A1A80CF3800DA68CB /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D6B1A80CF3800DA68CB /* 22.png */; };
+		0AD56D7B1A80CF3800DA68CB /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D6C1A80CF3800DA68CB /* 23.png */; };
+		0AD56D7C1A80CF3800DA68CB /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D6D1A80CF3800DA68CB /* 24.png */; };
+		0AD56D7D1A80CF3800DA68CB /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D6E1A80CF3800DA68CB /* 25.png */; };
+		0AD56D7E1A80CF3800DA68CB /* 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D6F1A80CF3800DA68CB /* 26.png */; };
+		0AD56D7F1A80CF3800DA68CB /* disconekt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D701A80CF3800DA68CB /* disconekt.png */; };
+		0AD56D801A80CF3800DA68CB /* emp.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D711A80CF3800DA68CB /* emp.png */; };
+		0AD56D811A80CF3800DA68CB /* iphoneBGset.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56D721A80CF3800DA68CB /* iphoneBGset.png */; };
+		0ADE346D1A80E1B600E01285 /* krestik.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ADE346C1A80E1B600E01285 /* krestik.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +58,22 @@
 		0AD56D531A80C79600DA68CB /* CDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD56D581A80C79600DA68CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD56D591A80C79600DA68CB /* CDiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDiceTests.m; sourceTree = "<group>"; };
+		0AD56D641A80CF3800DA68CB /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		0AD56D651A80CF3800DA68CB /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		0AD56D661A80CF3800DA68CB /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		0AD56D671A80CF3800DA68CB /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		0AD56D681A80CF3800DA68CB /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		0AD56D691A80CF3800DA68CB /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		0AD56D6A1A80CF3800DA68CB /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		0AD56D6B1A80CF3800DA68CB /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		0AD56D6C1A80CF3800DA68CB /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 23.png; sourceTree = "<group>"; };
+		0AD56D6D1A80CF3800DA68CB /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
+		0AD56D6E1A80CF3800DA68CB /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		0AD56D6F1A80CF3800DA68CB /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26.png; sourceTree = "<group>"; };
+		0AD56D701A80CF3800DA68CB /* disconekt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconekt.png; sourceTree = "<group>"; };
+		0AD56D711A80CF3800DA68CB /* emp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emp.png; sourceTree = "<group>"; };
+		0AD56D721A80CF3800DA68CB /* iphoneBGset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBGset.png; sourceTree = "<group>"; };
+		0ADE346C1A80E1B600E01285 /* krestik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = krestik.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +119,7 @@
 				0AD56D3F1A80C79600DA68CB /* AppDelegate.m */,
 				0AD56D441A80C79600DA68CB /* ViewController.h */,
 				0AD56D451A80C79600DA68CB /* ViewController.m */,
+				0AD56D631A80CF3800DA68CB /* res */,
 				0AD56D471A80C79600DA68CB /* Main.storyboard */,
 				0AD56D4A1A80C79600DA68CB /* Images.xcassets */,
 				0AD56D4C1A80C79600DA68CB /* LaunchScreen.xib */,
@@ -120,6 +153,29 @@
 				0AD56D581A80C79600DA68CB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AD56D631A80CF3800DA68CB /* res */ = {
+			isa = PBXGroup;
+			children = (
+				0ADE346C1A80E1B600E01285 /* krestik.png */,
+				0AD56D641A80CF3800DA68CB /* 11.png */,
+				0AD56D651A80CF3800DA68CB /* 12.png */,
+				0AD56D661A80CF3800DA68CB /* 13.png */,
+				0AD56D671A80CF3800DA68CB /* 14.png */,
+				0AD56D681A80CF3800DA68CB /* 15.png */,
+				0AD56D691A80CF3800DA68CB /* 16.png */,
+				0AD56D6A1A80CF3800DA68CB /* 21.png */,
+				0AD56D6B1A80CF3800DA68CB /* 22.png */,
+				0AD56D6C1A80CF3800DA68CB /* 23.png */,
+				0AD56D6D1A80CF3800DA68CB /* 24.png */,
+				0AD56D6E1A80CF3800DA68CB /* 25.png */,
+				0AD56D6F1A80CF3800DA68CB /* 26.png */,
+				0AD56D701A80CF3800DA68CB /* disconekt.png */,
+				0AD56D711A80CF3800DA68CB /* emp.png */,
+				0AD56D721A80CF3800DA68CB /* iphoneBGset.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +258,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD56D7E1A80CF3800DA68CB /* 26.png in Resources */,
+				0AD56D7C1A80CF3800DA68CB /* 24.png in Resources */,
+				0AD56D791A80CF3800DA68CB /* 21.png in Resources */,
+				0AD56D741A80CF3800DA68CB /* 12.png in Resources */,
+				0AD56D7F1A80CF3800DA68CB /* disconekt.png in Resources */,
 				0AD56D491A80C79600DA68CB /* Main.storyboard in Resources */,
+				0AD56D811A80CF3800DA68CB /* iphoneBGset.png in Resources */,
+				0AD56D801A80CF3800DA68CB /* emp.png in Resources */,
 				0AD56D4E1A80C79600DA68CB /* LaunchScreen.xib in Resources */,
+				0AD56D761A80CF3800DA68CB /* 14.png in Resources */,
+				0AD56D7D1A80CF3800DA68CB /* 25.png in Resources */,
 				0AD56D4B1A80C79600DA68CB /* Images.xcassets in Resources */,
+				0AD56D7B1A80CF3800DA68CB /* 23.png in Resources */,
+				0ADE346D1A80E1B600E01285 /* krestik.png in Resources */,
+				0AD56D731A80CF3800DA68CB /* 11.png in Resources */,
+				0AD56D7A1A80CF3800DA68CB /* 22.png in Resources */,
+				0AD56D751A80CF3800DA68CB /* 13.png in Resources */,
+				0AD56D771A80CF3800DA68CB /* 15.png in Resources */,
+				0AD56D781A80CF3800DA68CB /* 16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +494,7 @@
 				0AD56D5F1A80C79600DA68CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AD56D601A80C79600DA68CB /* Build configuration list for PBXNativeTarget "CDiceTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +503,7 @@
 				0AD56D621A80C79600DA68CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
