@@ -15,7 +15,7 @@
     NSString *numValue2;
     NSString *dataToSend;
     NSString *dataDop;
-    NSString *dataChar;
+    NSString *dataComeFromDice;
     bool random1;
     bool random2;
 }
@@ -24,12 +24,42 @@
 
 @implementation ViewController
 
+@synthesize chatView;
+@synthesize messageTextField;
+//@synthesize device;
+@synthesize currentSession;
+@synthesize txtMessage;
+@synthesize connect;
+@synthesize disconnect;
+GKPeerPickerController *picker;
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    [[UIApplication sharedApplication] setIdleTimerDisabled: YES];
+    
+    
+    m_textChat = [[TextChat alloc] init];
+    m_textChat.delegate = self;
+    
+    [self startValuse];
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+
 - (void)startValuse{
+    dataComeFromDice=@"";
+    
     random1=YES;
     random2=YES;
-    dataChar = @"c";
     dataToSend = @"";
-    dataDop= @"";
+    dataDop= @"   ";
     numValue = @"";
     numValue1 = @"";
     numValue2 = @"";
@@ -40,11 +70,22 @@
 
 -(void) makeDataToSend{
     
-    dataToSend = [NSString stringWithFormat:@"%@%@%@",dataChar,numValue,dataDop];
-    self.labelText.text = dataToSend;
+    dataToSend = [NSString stringWithFormat:@"%@%@%@",numValue1,dataDop,numValue2];
+  //  self.labelText.text = dataToSend;
+   /*
+    NSString *_temp;
+    _temp = @"19992";
+  
+    NSString *_1;
+    NSString *_2;
     
+    _1 = [_temp substringToIndex:1];
+    _2 =[[_temp substringFromIndex:3]substringToIndex:1];
+//    _1 = [_1 substringToIndex:1];
     
-   // [m_textChat postMessage:dataToSend];
+    self.labelText.text = [NSString stringWithFormat:@"%@ - %@",_1,_2];
+    */
+   [m_textChat postMessage:dataToSend];
 }
 
 #pragma mark - ResetKubikColor
@@ -83,17 +124,6 @@
 }
 
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    [self startValuse];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 - (IBAction)butNum11:(id)sender {
     numValue1=@"1";
@@ -219,5 +249,53 @@
     numValue = [NSString stringWithFormat:@"%@%@",numValue1,numValue2];
     
     [self makeDataToSend];
+    
+    
+    
 }
+
+#pragma mark - TextChat
+
+-(void) textChat:(TextChat*)textChat didFailWithError:(NSError*)error {}
+-(void) textChat:(TextChat *)textChat memberConnected:(NSString*)member {
+    self.disconnect.alpha=1;
+}
+
+-(void) textChat:(TextChat *)textChat memberDisconnected:(NSString*)member {
+    self.disconnect.alpha=0;
+}
+
+
+-(void) textChat:(TextChat *)textChat newMessageAvailable:
+//1DA4 - 1 4
+
+
+(NSString*)message fromMember:(NSString*)member {
+    dataComeFromDice=[NSString stringWithFormat:@"%@",message];
+    NSString *_1;
+    NSString *_2;
+    
+    _1 = [dataComeFromDice substringToIndex:1];
+    _2 =[[dataComeFromDice substringFromIndex:4]substringToIndex:1];
+    
+    // NSString *_kubtemp =
+    
+    _2 = [NSString stringWithFormat:@"1%@.png",_2];
+    _1 = [NSString stringWithFormat:@"1%@.png",_1];
+    
+     UIImage *btnImage = [UIImage imageNamed:_1];
+        [self.iphoneKubikifromiPad1 setBackgroundImage:btnImage forState:UIControlStateNormal];
+     btnImage = [UIImage imageNamed:_2];
+     [self.iphoneKubikifromiPad2 setBackgroundImage:btnImage forState:UIControlStateNormal];
+    
+    self.labelText.text = dataComeFromDice;
+}
+
+
+-(void) showMessage:(NSString*)message {
+    
+    self.labelText.text = [NSString stringWithFormat:@"%@\n%@",message,self.chatView.text];
+}
+
+
 @end

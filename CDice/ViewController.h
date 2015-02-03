@@ -8,7 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+//#import "GameKit/GameKit.h"
+//#import "AVFoundation/AVFoundation.h"
+
+#import "TextChat.h"
+
+@interface ViewController : UIViewController<TextChatDelegate>
+{
+    TextChat* m_textChat;
+    GKSession *currentSession;
+    IBOutlet UITextField *txtMessage;
+    IBOutlet UIButton *connect;
+    IBOutlet UIButton *disconnect;
+}
 @property (weak, nonatomic) IBOutlet UIButton *butnum11;
 @property (weak, nonatomic) IBOutlet UIButton *butnum12;
 @property (weak, nonatomic) IBOutlet UIButton *butnum13;
@@ -27,7 +39,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *iphoneKubikifromiPad1;
 @property (weak, nonatomic) IBOutlet UIButton *iphoneKubikifromiPad2;
 
-@property (weak, nonatomic) IBOutlet UIImageView *disconnect;
+//@property (weak, nonatomic) IBOutlet UIImageView *disconnect;
 
 - (IBAction)butNum11:(id)sender;
 - (IBAction)butNum12:(id)sender;
@@ -45,6 +57,17 @@
 - (IBAction)btnSend:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UILabel *labelText;
+
+
+
+@property (retain, nonatomic) IBOutlet UITextView *chatView;
+@property (retain, nonatomic) IBOutlet UITextField *messageTextField;
+-(void) showMessage:(NSString*)message;
+@property (nonatomic, retain) GKSession *currentSession;
+@property (nonatomic, retain) UITextField *txtMessage;
+@property (nonatomic, retain) UIButton *connect;
+@property (nonatomic, retain) UIButton *disconnect;
+
 
 @end
 

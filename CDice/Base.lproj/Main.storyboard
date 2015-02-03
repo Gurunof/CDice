@@ -140,7 +140,7 @@
                                             <action selector="butNum26:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5ug-lV-u2N"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="disconekt.png" translatesAutoresizingMaskIntoConstraints="NO" id="8PM-nU-pPh">
+                                    <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="disconekt.png" translatesAutoresizingMaskIntoConstraints="NO" id="8PM-nU-pPh">
                                         <rect key="frame" x="164" y="407" width="140" height="25"/>
                                     </imageView>
                                     <button opaque="NO" alpha="0.20000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgk-7t-KXh">
@@ -187,7 +187,6 @@
                         <outlet property="butnum24" destination="Fnm-xW-NgC" id="ZLB-Ma-H2B"/>
                         <outlet property="butnum25" destination="5P9-k5-Gn1" id="Xlo-dL-TZl"/>
                         <outlet property="butnum26" destination="x1L-cp-UMi" id="DZB-qg-e02"/>
-                        <outlet property="disconnect" destination="8PM-nU-pPh" id="ziL-V3-hOM"/>
                         <outlet property="iphoneKubikifromiPad1" destination="UEw-IN-5Bu" id="pse-cG-yYe"/>
                         <outlet property="iphoneKubikifromiPad2" destination="QMi-iQ-KP6" id="aH0-di-qdB"/>
                         <outlet property="labelText" destination="yVW-lb-71O" id="YZE-D5-jq2"/>
