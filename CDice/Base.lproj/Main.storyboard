@@ -31,36 +31,54 @@
                                         <state key="normal" backgroundImage="11.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum11:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hHY-OE-MOc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATi-EA-qa0">
                                         <rect key="frame" x="89" y="20" width="60" height="60"/>
                                         <state key="normal" backgroundImage="12.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum12:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fqZ-8F-7Sw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KX-C5-U2v">
                                         <rect key="frame" x="24" y="85" width="60" height="60"/>
                                         <state key="normal" backgroundImage="13.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum13:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="V2D-R5-uq2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t74-uD-bNj">
                                         <rect key="frame" x="89" y="85" width="60" height="60"/>
                                         <state key="normal" backgroundImage="14.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum14:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FFr-bN-d3u"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdZ-RW-WNW">
                                         <rect key="frame" x="24" y="151" width="60" height="60"/>
                                         <state key="normal" backgroundImage="15.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum15:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tPd-3n-pq9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDD-j5-zcg">
                                         <rect key="frame" x="89" y="151" width="60" height="60"/>
                                         <state key="normal" backgroundImage="16.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum16:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="d6C-rP-cOZ"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVW-lb-71O">
                                         <rect key="frame" x="24" y="349" width="125" height="44"/>
@@ -73,36 +91,54 @@
                                         <state key="normal" backgroundImage="11.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum21:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6fv-ln-Wql"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BeZ-Ek-090">
                                         <rect key="frame" x="238" y="20" width="60" height="60"/>
                                         <state key="normal" backgroundImage="12.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum22:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JGk-o8-h8L"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wg1-KP-guC">
                                         <rect key="frame" x="170" y="85" width="60" height="60"/>
                                         <state key="normal" backgroundImage="13.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum23:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pgp-Xw-30u"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnm-xW-NgC">
                                         <rect key="frame" x="238" y="85" width="60" height="60"/>
                                         <state key="normal" backgroundImage="14.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum24:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PmX-EC-Ku1"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5P9-k5-Gn1">
                                         <rect key="frame" x="170" y="151" width="60" height="60"/>
                                         <state key="normal" backgroundImage="15.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum25:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="RgA-b3-mFh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1L-cp-UMi">
                                         <rect key="frame" x="238" y="151" width="60" height="60"/>
                                         <state key="normal" backgroundImage="16.png">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="butNum26:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5ug-lV-u2N"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="disconekt.png" translatesAutoresizingMaskIntoConstraints="NO" id="8PM-nU-pPh">
                                         <rect key="frame" x="164" y="407" width="140" height="25"/>
@@ -114,6 +150,9 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="btnSend:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BZD-PU-1Fa"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEw-IN-5Bu">
                                         <rect key="frame" x="210" y="353" width="40" height="40"/>
@@ -134,6 +173,24 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="btnSend" destination="hgk-7t-KXh" id="jqY-ln-J8P"/>
+                        <outlet property="butnum11" destination="oEc-UX-qKd" id="I9t-KN-N8R"/>
+                        <outlet property="butnum12" destination="ATi-EA-qa0" id="9q0-7m-39z"/>
+                        <outlet property="butnum13" destination="5KX-C5-U2v" id="be9-DO-Vze"/>
+                        <outlet property="butnum14" destination="t74-uD-bNj" id="VYS-1E-3fG"/>
+                        <outlet property="butnum15" destination="SdZ-RW-WNW" id="Sav-aD-Mkp"/>
+                        <outlet property="butnum16" destination="aDD-j5-zcg" id="6et-EB-1Dw"/>
+                        <outlet property="butnum21" destination="Oqm-Zz-rRP" id="Inn-Do-Dqb"/>
+                        <outlet property="butnum22" destination="BeZ-Ek-090" id="tDt-Ay-IFb"/>
+                        <outlet property="butnum23" destination="Wg1-KP-guC" id="B5u-Xe-Rc8"/>
+                        <outlet property="butnum24" destination="Fnm-xW-NgC" id="ZLB-Ma-H2B"/>
+                        <outlet property="butnum25" destination="5P9-k5-Gn1" id="Xlo-dL-TZl"/>
+                        <outlet property="butnum26" destination="x1L-cp-UMi" id="DZB-qg-e02"/>
+                        <outlet property="disconnect" destination="8PM-nU-pPh" id="ziL-V3-hOM"/>
+                        <outlet property="iphoneKubikifromiPad1" destination="UEw-IN-5Bu" id="pse-cG-yYe"/>
+                        <outlet property="iphoneKubikifromiPad2" destination="QMi-iQ-KP6" id="aH0-di-qdB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
